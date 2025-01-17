@@ -85,7 +85,7 @@ await FallingEdge(dut.clk)
 ```
 
 > [!NOTE]
-> Triggers are essential since they allow us to implement a “blocking” statement inside a co-routine which only resumes execution when the trigger is released
+> Triggers are essential since they allow us to implement a "blocking" statement inside a co-routine which only resumes execution when the trigger is released
 
 Lastly two assert statements are executed and the signal values are printed to the console.
 
