@@ -6,9 +6,13 @@ Starting with this chapter less actual code will be explained in detail as the r
 
 What enables us to use AXI-streaming is [cocotbext-axi](https://github.com/alexforencich/cocotbext-axi), a python package containing AXI, AXI lite, and AXI stream modules for cocotb. In fact, cocotb and more specifically cocotb-bus are dependencies of this package. We will make use of 1x AXI-stream master (source) and 1x AXI-stream slave (sink) here. Later, Part 5 will also introduce the usage of 1x AXI-lite master to read and write IP registers.
 
+<div align="center">
+
 | Tool    | Version |
 | -------- | ------- |
 | cocotbext-axi | 0.1.24 |
+
+</div>
 
 ## Objectives
 
@@ -58,6 +62,7 @@ P3
 </details>
 
 To handle P3 .pnm images i asked the LLM (Large Language Model) of my choice (Grok) to create read and write functions for it. Polished them a bit and tested them. Have a look in utility.py. Note that the read function returns the pixel data, width, height and the max. value i.e. 
+
 $$
 2^{bit-depth}-1
 $$
@@ -137,7 +142,7 @@ For log level DEBUG and INFO the console output will contain the TX and RX AxiSt
   <summary>output</summary>
 
 ```
-0.00ns INFO     cocotb.axis_design.s_axis_video    AXI stream source
+ 0.00ns INFO     cocotb.axis_design.s_axis_video    AXI stream source
  0.00ns INFO     cocotb.axis_design.s_axis_video    cocotbext-axi version 0.1.24
  0.00ns INFO     cocotb.axis_design.s_axis_video    Copyright (c) 2020 Alex Forencich
  0.00ns INFO     cocotb.axis_design.s_axis_video    https://github.com/alexforencich/cocotbext-axi
