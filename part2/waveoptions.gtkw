@@ -1,0 +1,40 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Wed Jan 15 15:01:02 2025
+[*]
+[dumpfile] "/home/mtosch/cocotb2/sim_build/waveform.ghw"
+[dumpfile_mtime] "Wed Jan 15 14:59:55 2025"
+[dumpfile_size] 3258
+[savefile] "/home/mtosch/cocotb2/waveoptions_wave.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-26.000000 24400000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.axis_design.
+[sst_width] 214
+[signals_width] 222
+[sst_expanded] 1
+[sst_vpaned_height] 152
+@29
+[color] 2
+top.axis_design.clk
+[color] 2
+top.axis_design.reset_n
+@28
+top.axis_design.s_axis_video_tuser[0]
+top.axis_design.s_axis_video_tlast
+top.axis_design.s_axis_video_tready
+top.axis_design.s_axis_video_tvalid
+@22
+#{top.axis_design.s_axis_video_tdata[23:0]} top.axis_design.s_axis_video_tdata[23] top.axis_design.s_axis_video_tdata[22] top.axis_design.s_axis_video_tdata[21] top.axis_design.s_axis_video_tdata[20] top.axis_design.s_axis_video_tdata[19] top.axis_design.s_axis_video_tdata[18] top.axis_design.s_axis_video_tdata[17] top.axis_design.s_axis_video_tdata[16] top.axis_design.s_axis_video_tdata[15] top.axis_design.s_axis_video_tdata[14] top.axis_design.s_axis_video_tdata[13] top.axis_design.s_axis_video_tdata[12] top.axis_design.s_axis_video_tdata[11] top.axis_design.s_axis_video_tdata[10] top.axis_design.s_axis_video_tdata[9] top.axis_design.s_axis_video_tdata[8] top.axis_design.s_axis_video_tdata[7] top.axis_design.s_axis_video_tdata[6] top.axis_design.s_axis_video_tdata[5] top.axis_design.s_axis_video_tdata[4] top.axis_design.s_axis_video_tdata[3] top.axis_design.s_axis_video_tdata[2] top.axis_design.s_axis_video_tdata[1] top.axis_design.s_axis_video_tdata[0]
+@28
+top.axis_design.m_axis_video_tlast
+top.axis_design.m_axis_video_tvalid
+top.axis_design.m_axis_video_tready
+@22
+#{top.axis_design.m_axis_video_tdata[23:0]} top.axis_design.m_axis_video_tdata[23] top.axis_design.m_axis_video_tdata[22] top.axis_design.m_axis_video_tdata[21] top.axis_design.m_axis_video_tdata[20] top.axis_design.m_axis_video_tdata[19] top.axis_design.m_axis_video_tdata[18] top.axis_design.m_axis_video_tdata[17] top.axis_design.m_axis_video_tdata[16] top.axis_design.m_axis_video_tdata[15] top.axis_design.m_axis_video_tdata[14] top.axis_design.m_axis_video_tdata[13] top.axis_design.m_axis_video_tdata[12] top.axis_design.m_axis_video_tdata[11] top.axis_design.m_axis_video_tdata[10] top.axis_design.m_axis_video_tdata[9] top.axis_design.m_axis_video_tdata[8] top.axis_design.m_axis_video_tdata[7] top.axis_design.m_axis_video_tdata[6] top.axis_design.m_axis_video_tdata[5] top.axis_design.m_axis_video_tdata[4] top.axis_design.m_axis_video_tdata[3] top.axis_design.m_axis_video_tdata[2] top.axis_design.m_axis_video_tdata[1] top.axis_design.m_axis_video_tdata[0]
+@28
+top.axis_design.m_axis_video_tuser[0]
+[pattern_trace] 1
+[pattern_trace] 0
