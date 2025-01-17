@@ -141,6 +141,7 @@ SIM=ghdl python test_runner.py
 
 <details>
   <summary>output</summary>
+
 ```
 ....
     0.00ns INFO     cocotb.regression                  Found test test_my_design.my_test_case
@@ -167,10 +168,13 @@ SIM=ghdl pytest test_runner.py
 
 <details>
   <summary>output</summary>
+
+```
 ============================== short test summary info =======================================
 FAILED test_runner.py::test_my_design_runner[G_DATA_WIDTH=8] - SystemExit: ERROR: Failed 1 of 1 tests.
 FAILED test_runner.py::test_my_design_runner[G_DATA_WIDTH=24] - SystemExit: ERROR: Failed 1 of 1 tests.
 ======================= 2 failed, 1 passed, 1 warning in 1.07s ===============================
+```
 </details>
 
 > [!NOTE]
@@ -184,6 +188,7 @@ test_my_design_runner(g_data_width=8)
 
 <details>
   <summary>output</summary>
+  
 ```
 ....
      0.00ns INFO     cocotb.regression                  Found test test_my_design.my_test_case
@@ -222,5 +227,5 @@ gtkwave sim_build/waveform.ghw
 ```
 
 <p align="center">
-	<img src="../img/part1_waveform.png" width="600">
+	<img src="../img/part1_waveform.png">
 </p>
