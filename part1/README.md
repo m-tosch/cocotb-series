@@ -13,6 +13,8 @@ Don't worry if you don't grasp everything right away. This initial segment of th
 
 As stated in the official introduction to the series, the main purpose is educational. Numerous other setups (OS, simulators, tool versions…etc.) are possible. The one that was used here is based on the tools shown in the table below. Note that this list is incomplete as it only contains the most important pieces required at this point in time. Others are introduced in later chapters.
 
+<div align="center">
+
 | Tool    | Version |
 | -------- | ------- |
 | Python | 3.8.10 |
@@ -22,6 +24,8 @@ As stated in the official introduction to the series, the main purpose is educat
 | ghdl | 5.0.0-dev |
 | gtkwave | 3.3.103 |
 | pytest | 8.3.4 |
+
+</div>
 
 ## Objectives
 
@@ -33,12 +37,16 @@ As stated in the official introduction to the series, the main purpose is educat
 
 ## Step by step
 
+<div align="center">
+
 | Source    | Description |
 | -------- | ------- |
 | my_design.vhd | DUT |
 | test_my_design.py |  cocotb test bench file |
 | test_runner.py |  Python runner. this file to execute simulation |
 | Makefile |  GNU Makefile. Run this file to execute simulation |
+
+</div>
 
 The first thing to note is that there are two options to run test bench. Either via Makefile (original approach) or via python runner (new approach). As of cocotb version 1.9.2 python runners are still considered an experimental feature which is why you will see the following message on the console when using them.
 

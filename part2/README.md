@@ -23,6 +23,8 @@ What enables us to use AXI-streaming is [cocotbext-axi](https://github.com/alexf
 
 ## Step by step
 
+<div align="center">
+
 | Source    | Description |
 | -------- | ------- |
 | axis_design.vhd | DUT |
@@ -32,6 +34,8 @@ What enables us to use AXI-streaming is [cocotbext-axi](https://github.com/alexf
 | utility.py |  Helper file containing .pnm image r/w functions |
 | images/ |  Folder containing RGB .pnm test images |
 | waveoptions.gtkw |  pre-defined waveform option file. open with gtkwave |
+
+</div>
 
 ### PNM images
 
@@ -73,11 +77,15 @@ The next piece of the puzzle is our custom AXI-stream image container class, **A
 
 Consider RGBRandom_4x3_8bit.pnm from before. When we put the data into an **AxiStreamImage** it will look like this
 
+<div align="center">
+
 |     |  |
 | -------- | ------- |
 | 0 | AxiStreamFrame [7576722, 11029947, 8468569, 15412530] |
 | 1 | AxiStreamFrame [8658221, 3077977, 13047515, 12898473] |
 | 2 | AxiStreamFrame [6667522, 11819587, 15178464, 11020367] |
+
+</div>
 
 Note that you don’t see the single R, G and B values but rather the combination of all of them making up a pixel. So for the first pixel this would be
 
