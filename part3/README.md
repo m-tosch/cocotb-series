@@ -1,6 +1,6 @@
 # Part 3 - More tests and simulation co-processing
 
-In this third part of the series we are going to add more tests to our test bench. In the process we will learn how to selectively run test cases. The tests will be constructed from a combination of number of frames, image size and random handshake toggling. We’ll also implement a simulation co-processing meaning our cocotb python code will do the same operation as we’ll implement in the DUT. The results will be compared.
+In this third part of the series we are going to add more tests to our test bench. In the process we will learn how to selectively run test cases. The tests will be constructed from a combination of number of frames, image size and random handshake toggling. We'll also implement a simulation co-processing meaning our cocotb python code will do the same operation as we'll implement in the DUT. The results will be compared.
 
 ## Objectives
 
