@@ -1,0 +1,42 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Wed Jan 15 15:22:10 2025
+[*]
+[dumpfile] "/home/mtosch/cocotb4/sim_build/waveform.ghw"
+[dumpfile_mtime] "Wed Jan 15 15:09:49 2025"
+[dumpfile_size] 201564
+[savefile] "/home/mtosch/cocotb4/waveoptions.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-23.139130 6650000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.axis_design.
+[sst_width] 214
+[signals_width] 222
+[sst_expanded] 1
+[sst_vpaned_height] 222
+@28
+[color] 2
+top.axis_design.clk
+[color] 2
+top.axis_design.reset_n
+top.axis_design.s_axis_video_tuser[0]
+top.axis_design.s_axis_video_tlast
+top.axis_design.s_axis_video_tvalid
+top.axis_design.m_axis_video_tready
+@22
+#{top.axis_design.s_axis_video_tdata[95:0]} top.axis_design.s_axis_video_tdata[95] top.axis_design.s_axis_video_tdata[94] top.axis_design.s_axis_video_tdata[93] top.axis_design.s_axis_video_tdata[92] top.axis_design.s_axis_video_tdata[91] top.axis_design.s_axis_video_tdata[90] top.axis_design.s_axis_video_tdata[89] top.axis_design.s_axis_video_tdata[88] top.axis_design.s_axis_video_tdata[87] top.axis_design.s_axis_video_tdata[86] top.axis_design.s_axis_video_tdata[85] top.axis_design.s_axis_video_tdata[84] top.axis_design.s_axis_video_tdata[83] top.axis_design.s_axis_video_tdata[82] top.axis_design.s_axis_video_tdata[81] top.axis_design.s_axis_video_tdata[80] top.axis_design.s_axis_video_tdata[79] top.axis_design.s_axis_video_tdata[78] top.axis_design.s_axis_video_tdata[77] top.axis_design.s_axis_video_tdata[76] top.axis_design.s_axis_video_tdata[75] top.axis_design.s_axis_video_tdata[74] top.axis_design.s_axis_video_tdata[73] top.axis_design.s_axis_video_tdata[72] top.axis_design.s_axis_video_tdata[71] top.axis_design.s_axis_video_tdata[70] top.axis_design.s_axis_video_tdata[69] top.axis_design.s_axis_video_tdata[68] top.axis_design.s_axis_video_tdata[67] top.axis_design.s_axis_video_tdata[66] top.axis_design.s_axis_video_tdata[65] top.axis_design.s_axis_video_tdata[64] top.axis_design.s_axis_video_tdata[63] top.axis_design.s_axis_video_tdata[62] top.axis_design.s_axis_video_tdata[61] top.axis_design.s_axis_video_tdata[60] top.axis_design.s_axis_video_tdata[59] top.axis_design.s_axis_video_tdata[58] top.axis_design.s_axis_video_tdata[57] top.axis_design.s_axis_video_tdata[56] top.axis_design.s_axis_video_tdata[55] top.axis_design.s_axis_video_tdata[54] top.axis_design.s_axis_video_tdata[53] top.axis_design.s_axis_video_tdata[52] top.axis_design.s_axis_video_tdata[51] top.axis_design.s_axis_video_tdata[50] top.axis_design.s_axis_video_tdata[49] top.axis_design.s_axis_video_tdata[48] top.axis_design.s_axis_video_tdata[47] top.axis_design.s_axis_video_tdata[46] top.axis_design.s_axis_video_tdata[45] top.axis_design.s_axis_video_tdata[44] top.axis_design.s_axis_video_tdata[43] top.axis_design.s_axis_video_tdata[42] top.axis_design.s_axis_video_tdata[41] top.axis_design.s_axis_video_tdata[40] top.axis_design.s_axis_video_tdata[39] top.axis_design.s_axis_video_tdata[38] top.axis_design.s_axis_video_tdata[37] top.axis_design.s_axis_video_tdata[36] top.axis_design.s_axis_video_tdata[35] top.axis_design.s_axis_video_tdata[34] top.axis_design.s_axis_video_tdata[33] top.axis_design.s_axis_video_tdata[32] top.axis_design.s_axis_video_tdata[31] top.axis_design.s_axis_video_tdata[30] top.axis_design.s_axis_video_tdata[29] top.axis_design.s_axis_video_tdata[28] top.axis_design.s_axis_video_tdata[27] top.axis_design.s_axis_video_tdata[26] top.axis_design.s_axis_video_tdata[25] top.axis_design.s_axis_video_tdata[24] top.axis_design.s_axis_video_tdata[23] top.axis_design.s_axis_video_tdata[22] top.axis_design.s_axis_video_tdata[21] top.axis_design.s_axis_video_tdata[20] top.axis_design.s_axis_video_tdata[19] top.axis_design.s_axis_video_tdata[18] top.axis_design.s_axis_video_tdata[17] top.axis_design.s_axis_video_tdata[16] top.axis_design.s_axis_video_tdata[15] top.axis_design.s_axis_video_tdata[14] top.axis_design.s_axis_video_tdata[13] top.axis_design.s_axis_video_tdata[12] top.axis_design.s_axis_video_tdata[11] top.axis_design.s_axis_video_tdata[10] top.axis_design.s_axis_video_tdata[9] top.axis_design.s_axis_video_tdata[8] top.axis_design.s_axis_video_tdata[7] top.axis_design.s_axis_video_tdata[6] top.axis_design.s_axis_video_tdata[5] top.axis_design.s_axis_video_tdata[4] top.axis_design.s_axis_video_tdata[3] top.axis_design.s_axis_video_tdata[2] top.axis_design.s_axis_video_tdata[1] top.axis_design.s_axis_video_tdata[0]
+@201
+-
+@200
+-
+@28
+top.axis_design.m_axis_video_tuser[0]
+top.axis_design.m_axis_video_tlast
+top.axis_design.m_axis_video_tvalid
+top.axis_design.s_axis_video_tready
+@22
+#{top.axis_design.m_axis_video_tdata[95:0]} top.axis_design.m_axis_video_tdata[95] top.axis_design.m_axis_video_tdata[94] top.axis_design.m_axis_video_tdata[93] top.axis_design.m_axis_video_tdata[92] top.axis_design.m_axis_video_tdata[91] top.axis_design.m_axis_video_tdata[90] top.axis_design.m_axis_video_tdata[89] top.axis_design.m_axis_video_tdata[88] top.axis_design.m_axis_video_tdata[87] top.axis_design.m_axis_video_tdata[86] top.axis_design.m_axis_video_tdata[85] top.axis_design.m_axis_video_tdata[84] top.axis_design.m_axis_video_tdata[83] top.axis_design.m_axis_video_tdata[82] top.axis_design.m_axis_video_tdata[81] top.axis_design.m_axis_video_tdata[80] top.axis_design.m_axis_video_tdata[79] top.axis_design.m_axis_video_tdata[78] top.axis_design.m_axis_video_tdata[77] top.axis_design.m_axis_video_tdata[76] top.axis_design.m_axis_video_tdata[75] top.axis_design.m_axis_video_tdata[74] top.axis_design.m_axis_video_tdata[73] top.axis_design.m_axis_video_tdata[72] top.axis_design.m_axis_video_tdata[71] top.axis_design.m_axis_video_tdata[70] top.axis_design.m_axis_video_tdata[69] top.axis_design.m_axis_video_tdata[68] top.axis_design.m_axis_video_tdata[67] top.axis_design.m_axis_video_tdata[66] top.axis_design.m_axis_video_tdata[65] top.axis_design.m_axis_video_tdata[64] top.axis_design.m_axis_video_tdata[63] top.axis_design.m_axis_video_tdata[62] top.axis_design.m_axis_video_tdata[61] top.axis_design.m_axis_video_tdata[60] top.axis_design.m_axis_video_tdata[59] top.axis_design.m_axis_video_tdata[58] top.axis_design.m_axis_video_tdata[57] top.axis_design.m_axis_video_tdata[56] top.axis_design.m_axis_video_tdata[55] top.axis_design.m_axis_video_tdata[54] top.axis_design.m_axis_video_tdata[53] top.axis_design.m_axis_video_tdata[52] top.axis_design.m_axis_video_tdata[51] top.axis_design.m_axis_video_tdata[50] top.axis_design.m_axis_video_tdata[49] top.axis_design.m_axis_video_tdata[48] top.axis_design.m_axis_video_tdata[47] top.axis_design.m_axis_video_tdata[46] top.axis_design.m_axis_video_tdata[45] top.axis_design.m_axis_video_tdata[44] top.axis_design.m_axis_video_tdata[43] top.axis_design.m_axis_video_tdata[42] top.axis_design.m_axis_video_tdata[41] top.axis_design.m_axis_video_tdata[40] top.axis_design.m_axis_video_tdata[39] top.axis_design.m_axis_video_tdata[38] top.axis_design.m_axis_video_tdata[37] top.axis_design.m_axis_video_tdata[36] top.axis_design.m_axis_video_tdata[35] top.axis_design.m_axis_video_tdata[34] top.axis_design.m_axis_video_tdata[33] top.axis_design.m_axis_video_tdata[32] top.axis_design.m_axis_video_tdata[31] top.axis_design.m_axis_video_tdata[30] top.axis_design.m_axis_video_tdata[29] top.axis_design.m_axis_video_tdata[28] top.axis_design.m_axis_video_tdata[27] top.axis_design.m_axis_video_tdata[26] top.axis_design.m_axis_video_tdata[25] top.axis_design.m_axis_video_tdata[24] top.axis_design.m_axis_video_tdata[23] top.axis_design.m_axis_video_tdata[22] top.axis_design.m_axis_video_tdata[21] top.axis_design.m_axis_video_tdata[20] top.axis_design.m_axis_video_tdata[19] top.axis_design.m_axis_video_tdata[18] top.axis_design.m_axis_video_tdata[17] top.axis_design.m_axis_video_tdata[16] top.axis_design.m_axis_video_tdata[15] top.axis_design.m_axis_video_tdata[14] top.axis_design.m_axis_video_tdata[13] top.axis_design.m_axis_video_tdata[12] top.axis_design.m_axis_video_tdata[11] top.axis_design.m_axis_video_tdata[10] top.axis_design.m_axis_video_tdata[9] top.axis_design.m_axis_video_tdata[8] top.axis_design.m_axis_video_tdata[7] top.axis_design.m_axis_video_tdata[6] top.axis_design.m_axis_video_tdata[5] top.axis_design.m_axis_video_tdata[4] top.axis_design.m_axis_video_tdata[3] top.axis_design.m_axis_video_tdata[2] top.axis_design.m_axis_video_tdata[1] top.axis_design.m_axis_video_tdata[0]
+[pattern_trace] 1
+[pattern_trace] 0
