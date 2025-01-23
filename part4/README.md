@@ -514,8 +514,7 @@ For reference see [Setting Up a Dev Environment in Visual Studio Code](https://h
 Remember, the data we’ll be looking at in the tdata assert function is 1 PPC! Just the send and recv parts of are 4 PPC. So the pixel values we are comparing here are single pixel RGB values.
 
 <p align="center">
-	<img src="../img/part4_vs_code_debug.png
-">
+	<img src="../img/part4_vs_code_debug.png">
 </p>
 
 Let's analyze the 4 pixel values for the first line more closely. As we can see the 4th value differs significantly as we saw in the console output earlier already. In fact the 4th pixel value in rx_frame is exactly the same as the 3rd pixel value in rx_frame. 

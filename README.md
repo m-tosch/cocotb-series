@@ -30,7 +30,7 @@ A working Linux environment with python, cocotb, ghdl and gtkwave installed.
 | [Part 1](https://github.com/m-tosch/cocotb-series/tree/main/part1) <br> "The beginning"  | Intro. Simple DUT with parameterized cocotb testbench. Waveform viewer.   |
 | [Part 2](https://github.com/m-tosch/cocotb-series/tree/main/part2) <br> "AXI-stream images" |  Using AXI-stream master/slave to stream data through a DUT. 1 PPC. Assert image data. Read and write RGB pnm images.    |
 | [Part 3](https://github.com/m-tosch/cocotb-series/tree/main/part3) <br> "More tests and simulation co-processing"    |  Parameterization for cocotb tests. Multiple cocotb test functions. Select test cases. Simulation co-processing. Environment variables.   |
-| Part 4 <br> "Debugging a design error"    |   Improve test asserts. Support for 2 and 4 PPC AXI-stream. Debug error in design through test cases, waveform and Python debugger.  |
+| [Part 4](https://github.com/m-tosch/cocotb-series/tree/main/part4) <br> "Debugging a design error"    |   Improve test asserts. Support for 2 and 4 PPC AXI-stream. Debug error in design through test cases, waveform and Python debugger.  |
 | Part 5 <br> "AXI-lite register access"    |   AXI-lite implementation to r/w registers. Random handshake toggling. VHDL 2008 sources. More simulator arguments. Specialized setup functions.  |
 
 </div>
