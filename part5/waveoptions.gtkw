@@ -1,0 +1,141 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Dec 31 20:31:13 2024
+[*]
+[dumpfile] "/home/mto/cocotb5/sim_build/waveform.ghw"
+[dumpfile_mtime] "Tue Dec 31 20:24:21 2024"
+[dumpfile_size] 1562
+[savefile] "/home/mto/cocotb5/waveoptions.gtkw"
+[timestart] 0
+[size] 1857 979
+[pos] -43 -17
+*-26.699863 10000000 140000001 320000002 495000003 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] axis_design.
+[sst_width] 214
+[signals_width] 270
+[sst_expanded] 1
+[sst_vpaned_height] 438
+@800200
+-axis_design
+@28
+[color] 2
+axis_design.clk
+[color] 2
+axis_design.reset_n
+@22
+axis_design.m_axis_video_tdata[23:0]
+@28
+axis_design.m_axis_video_tlast
+axis_design.m_axis_video_tready
+axis_design.m_axis_video_tuser[0]
+axis_design.m_axis_video_tvalid
+@22
+axis_design.s_InputControlRegister[127:0]
+axis_design.s_OutputControlRegister[127:0]
+axis_design.s_axi_ctrl_araddr[3:0]
+@28
+axis_design.s_axi_ctrl_arready
+axis_design.s_axi_ctrl_arvalid
+@22
+axis_design.s_axi_ctrl_awaddr[3:0]
+@28
+axis_design.s_axi_ctrl_awready
+axis_design.s_axi_ctrl_awvalid
+axis_design.s_axi_ctrl_bready
+axis_design.s_axi_ctrl_bresp[1:0]
+axis_design.s_axi_ctrl_bvalid
+@22
+axis_design.s_axi_ctrl_rdata[31:0]
+@28
+axis_design.s_axi_ctrl_rready
+axis_design.s_axi_ctrl_rresp[1:0]
+axis_design.s_axi_ctrl_rvalid
+@22
+axis_design.s_axi_ctrl_wdata[31:0]
+@28
+axis_design.s_axi_ctrl_wready
+@22
+axis_design.s_axi_ctrl_wstrb[3:0]
+@28
+axis_design.s_axi_ctrl_wvalid
+@22
+axis_design.s_axis_video_tdata[23:0]
+@28
+axis_design.s_axis_video_tlast
+axis_design.s_axis_video_tready
+axis_design.s_axis_video_tuser[0]
+axis_design.s_axis_video_tvalid
+@1000200
+-axis_design
+@800200
+-inst_axilite_ctrl
+@28
+[color] 2
+axis_design.inst_axilite_ctrl.clk
+[color] 2
+axis_design.inst_axilite_ctrl.reset_n
+@22
+axis_design.inst_axilite_ctrl.axi_araddr[3:0]
+@28
+axis_design.inst_axilite_ctrl.axi_arready
+@22
+axis_design.inst_axilite_ctrl.axi_awaddr[3:0]
+@28
+axis_design.inst_axilite_ctrl.axi_awready
+axis_design.inst_axilite_ctrl.axi_bresp[1:0]
+axis_design.inst_axilite_ctrl.axi_bvalid
+@22
+axis_design.inst_axilite_ctrl.axi_rdata[31:0]
+@28
+axis_design.inst_axilite_ctrl.axi_rresp[1:0]
+axis_design.inst_axilite_ctrl.axi_rvalid
+axis_design.inst_axilite_ctrl.axi_wready
+@22
+axis_design.inst_axilite_ctrl.i_Regs[127:0]
+axis_design.inst_axilite_ctrl.o_Regs[127:0]
+@28
+axis_design.inst_axilite_ctrl.s_LocalReadAddress[3:2]
+axis_design.inst_axilite_ctrl.s_LocalWriteAddress[3:2]
+axis_design.inst_axilite_ctrl.s_aw_en
+@22
+axis_design.inst_axilite_ctrl.s_axi_araddr[3:0]
+@28
+axis_design.inst_axilite_ctrl.s_axi_arready
+axis_design.inst_axilite_ctrl.s_axi_arvalid
+@22
+axis_design.inst_axilite_ctrl.s_axi_awaddr[3:0]
+@28
+axis_design.inst_axilite_ctrl.s_axi_awready
+@29
+[color] 3
+axis_design.inst_axilite_ctrl.s_axi_awvalid
+@28
+[color] 3
+axis_design.inst_axilite_ctrl.s_axi_bready
+axis_design.inst_axilite_ctrl.s_axi_bresp[1:0]
+axis_design.inst_axilite_ctrl.s_axi_bvalid
+@22
+axis_design.inst_axilite_ctrl.s_axi_rdata[31:0]
+@28
+axis_design.inst_axilite_ctrl.s_axi_rready
+axis_design.inst_axilite_ctrl.s_axi_rresp[1:0]
+axis_design.inst_axilite_ctrl.s_axi_rvalid
+@22
+axis_design.inst_axilite_ctrl.s_axi_wdata[31:0]
+@28
+axis_design.inst_axilite_ctrl.s_axi_wready
+@22
+axis_design.inst_axilite_ctrl.s_axi_wstrb[3:0]
+@28
+axis_design.inst_axilite_ctrl.s_axi_wvalid
+@420
+axis_design.inst_axilite_ctrl.s_byte_index
+@22
+axis_design.inst_axilite_ctrl.s_regs[127:0]
+@28
+axis_design.inst_axilite_ctrl.s_slv_reg_rden
+axis_design.inst_axilite_ctrl.s_slv_reg_wren
+@1000200
+-inst_axilite_ctrl
+[pattern_trace] 1
+[pattern_trace] 0
