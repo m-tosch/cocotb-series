@@ -49,6 +49,8 @@ class AxiStreamImage:
 
 
     def __eq__(self, other):
+        if len(self.image) != len(other.image):
+            return False
         return all(frame_lhs == frame_rhs for frame_lhs, frame_rhs in zip(self.image, other))
 
     def __repr__(self):

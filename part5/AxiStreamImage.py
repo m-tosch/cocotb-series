@@ -11,8 +11,22 @@ class AxiStreamImage:
         :param height: Height of the image in pixels
         :param axis_frames: (optional) list of AxiStreamFrame
         """
+        # Check if data has correct length
+        if data:
+            if len(data) != (width*height):
+                raise ValueError(f"Length mismatch while creating AxiStreamImage. tdata length is {len(data)} but must be width*height: {(width*height)}")
+
+        # Check if the axi stream frame dimensions are provided correctly
+        if axis_frames is not None:
+            if len(axis_frames) != height:
+                raise ValueError(f"Number of frames ({len(axis_frames)}) does not match height ({height})")
+            for frame in axis_frames:
+                if len(frame.tdata) != width:
+                    raise ValueError(f"Frame length ({len(frame.tdata)}) does not match width ({width})")
+        
         self.width = width
         self.height = height
+
         if axis_frames is None:
             self.axis_frames = self._build(data)
         else:
@@ -22,12 +36,20 @@ class AxiStreamImage:
     @classmethod
     def from_frames(cls, axis_frames):
         """
-        Initialize the AxiStreamImage from a list of AxiStreamFrame
+        Initialize the AxiStreamImage from a list of AxiStreamFrames
 
-        :param axis_frames: list of AxiStreamFrame
+        :param axis_frames: list of AxiStreamFrames
         """
+        if not axis_frames:
+            raise ValueError("Frame list cannot be empty")
+        
         width = len(axis_frames[0])
+        for frame in axis_frames:
+            if len(frame.tdata) != width:
+                raise ValueError("All frames must have the same length")
+        
         height = len(axis_frames)
+
         return cls(None, width, height, axis_frames)
 
 
@@ -74,7 +96,9 @@ class AxiStreamImage:
 
 
     def __eq__(self, other):
-        return all(frame0 == frame1 for frame0, frame1 in zip(self.axis_frames, other))
+        if len(self.axis_frames) != len(other.axis_frames):
+            return False
+        return all(frame_lhs == frame_rhs for frame_lhs, frame_rhs in zip(self.axis_frames, other))
 
 
     def __repr__(self):
@@ -106,11 +130,11 @@ class AxiStreamImage:
     def __setitem__(self, index, value):
         if not isinstance(index, int):
             raise TypeError("Index must be an integer")
+        
         if index < 0:
             index += len(self.axis_frames) + 1  # +1 because we extend if index is out of range
 
-        # If the index is beyond the current length, extend the list
         if index >= len(self.axis_frames):
-            self.axis_frames.extend([None] * (index - len(self.axis_frames) + 1))
+            raise IndexError("Index out of range")
 
         self.axis_frames[index] = value
